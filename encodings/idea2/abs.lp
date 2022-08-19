@@ -93,8 +93,8 @@ init(object(order,N),value(line,(L1,L2))) :- init1(object(order,N),value(line,(L
 %#show rob/3.
 
 %## known limitations:
-% - type 7,8
-% - no multiple robots/shelves in on cell
+% - connections of type 7,8 cells
+% - no multiple robots/shelves in one cell
 
 %## TODO
 % - adjust solver to only make moves between nodes with valid connection (constraints)
