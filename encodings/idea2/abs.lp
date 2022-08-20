@@ -2,6 +2,8 @@
 % Tom Schmidt
 %
 
+#include "./solver/encoding.lp".
+
 %## input
 % requires valid input file using init1/2
 
@@ -59,6 +61,9 @@ connec((X,Y),(X+1,Y)) :- type(X,Y,T1), type(X+1,Y,T2), T1=(4;9;10;12;13;14;15), 
 connec((X,Y),(X,Y+1)) :- type(X,Y,T1), type(X,Y+1,T2), T1=(3;6;10;11;12;13;15), T2=(1;5;6;11;13;14;15).
 %## top-bot right tile (case 7,8 ignored for now) (bigger Y = bot)
 connec((X,Y),(X,Y+1)) :- type(X,Y,T1), type(X,Y+1,T2), T1=(4;9;10;12;13;14;15), T2=(2;5;9;11;12;14;15).
+%## mirror connec
+connec(C1,C2) :- connec(C2,C1).
+
 
 %## get new nodes
 init(object(node,N),value(at,(X,Y))) :- num(X,Y,N).
@@ -79,16 +84,15 @@ pick(N,((X+1)/2,(Y+1)/2),(X-(((X+1)/2)*2-1),Y-(((Y+1)/2)*2-1))) :- init1(object(
 init(object(pickingStation,N),value(at,(X,Y))) :- pick(N,(X,Y),_). 
 
 %## get products
-prod(N,((X+1)/2,(Y+1)/2),(X-(((X+1)/2)*2-1),Y-(((Y+1)/2)*2-1))) :- init1(object(product,N),value(on,(X,Y))).
-init(object(product,N),value(on,(X,Y))) :- prod(N,(X,Y),_). 
+init(object(product,P),value(on,(S,N))) :- init1(object(product,P),value(on,(S,N))).
 
 %## get orders
-init(object(order,N),value(pickingStation,PN)) :- init1(object(order,N),value(pickingStation,PN)).
-init(object(order,N),value(line,(L1,L2))) :- init1(object(order,N),value(line,(L1,L2))).
+init(object(order,O),value(pickingStation,PN)) :- init1(object(order,O),value(pickingStation,PN)).
+init(object(order,O),value(line,(P,N))) :- init1(object(order,O),value(line,(P,N))).
 
 
 #show init/2.
-%#show connec/2.
+#show connec/2.
 %#show type/3.
 %#show rob/3.
 
