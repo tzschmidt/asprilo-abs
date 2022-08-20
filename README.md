@@ -17,3 +17,5 @@ Further implementations will be done with Python or Anser Set Programming, speci
 
 - './encodings/' contains all encodings for our solver
 - './instances/benchmarks/' contains benchmark instances which are used for testing the encodings
+- './tools/' contains utility tools
+- './examples/' contains example files for our tools
