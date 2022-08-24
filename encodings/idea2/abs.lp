@@ -56,12 +56,12 @@ type((X+1)/2,(Y+1)/2,15) :- cell(X,Y), node(X,Y), node(X+1,Y), node(X,Y+1), node
 %## get connections
 %## left-right top tile (case 7,8 ignored for now)
 connec((X,Y),(X+1,Y),lrt) :- type(X,Y,T1), type(X+1,Y,T2), T1=(2;5;9;11;12;14;15), T2=(1;5;6;11;13;14;15).
-%## left-right bot tile (case 7,8 ignored for now)
-connec((X,Y),(X+1,Y),lrb) :- type(X,Y,T1), type(X+1,Y,T2), T1=(4;9;10;12;13;14;15), T2=(3;6;10;11;12;13;15).
+%## left-right bot tile (case 7,8 ignored for now) on double connection default to lrt
+connec((X,Y),(X+1,Y),lrb) :- type(X,Y,T1), type(X+1,Y,T2), T1=(4;9;10;12;13;14;15), T2=(3;6;10;11;12;13;15), not connec((X,Y),(X+1,Y),lrt).
 %## top-bot left tile (case 7,8 ignored for now) (bigger Y = bot)
 connec((X,Y),(X,Y+1),tbl) :- type(X,Y,T1), type(X,Y+1,T2), T1=(3;6;10;11;12;13;15), T2=(1;5;6;11;13;14;15).
-%## top-bot right tile (case 7,8 ignored for now) (bigger Y = bot)
-connec((X,Y),(X,Y+1),tbr) :- type(X,Y,T1), type(X,Y+1,T2), T1=(4;9;10;12;13;14;15), T2=(2;5;9;11;12;14;15).
+%## top-bot right tile (case 7,8 ignored for now) (bigger Y = bot) on double connection default to tbl
+connec((X,Y),(X,Y+1),tbr) :- type(X,Y,T1), type(X,Y+1,T2), T1=(4;9;10;12;13;14;15), T2=(2;5;9;11;12;14;15), not connec((X,Y),(X,Y+1),tbl).
 %## mirror connec
 connec(C1,C2,rlt) :- connec(C2,C1,lrt).
 connec(C1,C2,rlb) :- connec(C2,C1,lrb).
