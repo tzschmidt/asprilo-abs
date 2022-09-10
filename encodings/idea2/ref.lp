@@ -21,10 +21,10 @@ pos(R,(X,Y),horizon*3+2) :- position(R,C,horizon), position(shelf(S),C,0), init1
 2{pos(R,(X*2-1,Y*2-1),T*3+2); pos(R,(X*2-1-1,Y*2-1),(T+1)*3)}2 :- cellcon(R,(X,Y),rlt,_,T), isRobot(R), ntime(T).
 2{pos(R,(X*2-1,Y*2-1+1),T*3+2); pos(R,(X*2-1-1,Y*2-1+1),(T+1)*3)}2 :- cellcon(R,(X,Y),rlb,_,T), isRobot(R), ntime(T).
 2{pos(R,(X*2-1,Y*2-1),T*3+2); pos(R,(X*2-1,Y*2-1-1),(T+1)*3)}2 :- cellcon(R,(X,Y),btl,_,T), isRobot(R), ntime(T).
-2{pos(R,(X*2-1+1,Y*2-1),T*3+2); pos(R,(X*2-1+1,Y*2-1-1),(T+1)*3)}2 :- cellcon(R,(X,Y),btr,_,T), isRobot(R), time(T).
+2{pos(R,(X*2-1+1,Y*2-1),T*3+2); pos(R,(X*2-1+1,Y*2-1-1),(T+1)*3)}2 :- cellcon(R,(X,Y),btr,_,T), isRobot(R), ntime(T).
 2{pos(R,(X*2-1+1,Y*2-1),T*3+2); pos(R,(X*2-1+2,Y*2-1),(T+1)*3)}2 :- cellcon(R,(X,Y),lrt,_,T), isRobot(R), ntime(T).
 2{pos(R,(X*2-1+1,Y*2-1+1),T*3+2); pos(R,(X*2-1+2,Y*2-1+1),(T+1)*3)}2 :- cellcon(R,(X,Y),lrb,_,T), isRobot(R), ntime(T).
-2{pos(R,(X*2-1,Y*2-1+1),T*3+2); pos(R,(X*2-1,Y*2-1+2),(T+1)*3)}2 :- cellcon(R,(X,Y),tbl,_,T), isRobot(R), time(T).
+2{pos(R,(X*2-1,Y*2-1+1),T*3+2); pos(R,(X*2-1,Y*2-1+2),(T+1)*3)}2 :- cellcon(R,(X,Y),tbl,_,T), isRobot(R), ntime(T).
 2{pos(R,(X*2-1+1,Y*2-1+1),T*3+2); pos(R,(X*2-1+1,Y*2-1+2),(T+1)*3)}2 :- cellcon(R,(X,Y),tbr,_,T), isRobot(R), ntime(T).
 
 %## positions for waiting
@@ -56,6 +56,7 @@ occurs(object(robot,R),action(move,(X1-X2,Y1-Y2)),T) :- fpos(robot(R),(X1,Y1),T)
 
 %## TODO
 %- test diagonal step
+
 
 
 
