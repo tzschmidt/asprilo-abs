@@ -75,10 +75,10 @@ init(object(shelf,2),value(at,(3,2))).
 
 % PRODUCTS
 init(object(product,2),value(on,(1,7))).
-init(object(product,1),value(on,(1,6))).
+init(object(product,1),value(on,(2,6))).
 
 % ORDERS
 init(object(order,1),value(pickingStation,1)).
 init(object(order,1),value(line,(1,7))).
 init(object(order,3),value(pickingStation,1)).
-init(object(order,3),value(line,(1,6))).
+init(object(order,3),value(line,(2,6))).

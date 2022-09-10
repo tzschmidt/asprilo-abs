@@ -138,16 +138,16 @@ init(object(shelf,4),value(at,(5,1))).
 
 % PRODUCTS
 init(object(product,1),value(on,(1,4))).
-init(object(product,2),value(on,(1,5))).
-init(object(product,3),value(on,(2,5))).
-init(object(product,4),value(on,(2,6))).
+init(object(product,2),value(on,(2,5))).
+init(object(product,3),value(on,(3,5))).
+init(object(product,4),value(on,(4,6))).
 
 % ORDERS
 init(object(order,1),value(pickingStation,1)).
 init(object(order,1),value(line,(1,4))).
 init(object(order,3),value(pickingStation,1)).
-init(object(order,3),value(line,(1,5))).
+init(object(order,3),value(line,(2,5))).
 init(object(order,5),value(pickingStation,1)).
-init(object(order,5),value(line,(2,5))).
+init(object(order,5),value(line,(3,5))).
 init(object(order,7),value(pickingStation,1)).
-init(object(order,7),value(line,(2,6))).
+init(object(order,7),value(line,(4,6))).

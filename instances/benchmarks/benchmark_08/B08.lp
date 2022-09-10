@@ -143,19 +143,19 @@ init1(object(shelf,5),value(at,(4,1))).
 
 % PRODUCTS
 init1(object(product,1),value(on,(1,2))).
-init1(object(product,2),value(on,(1,1))).
-init1(object(product,3),value(on,(1,3))).
-init1(object(product,4),value(on,(1,4))).
-init1(object(product,5),value(on,(1,6))).
+init1(object(product,2),value(on,(2,1))).
+init1(object(product,3),value(on,(3,3))).
+init1(object(product,4),value(on,(4,4))).
+init1(object(product,5),value(on,(5,6))).
 
 % ORDERS
 init1(object(order,1),value(pickingStation,1)).
 init1(object(order,1),value(line,(1,1))).
 init1(object(order,3),value(pickingStation,1)).
-init1(object(order,3),value(line,(1,2))).
+init1(object(order,3),value(line,(2,2))).
 init1(object(order,5),value(pickingStation,1)).
-init1(object(order,5),value(line,(1,3))).
+init1(object(order,5),value(line,(3,3))).
 init1(object(order,7),value(pickingStation,1)).
-init1(object(order,7),value(line,(1,4))).
+init1(object(order,7),value(line,(4,4))).
 init1(object(order,9),value(pickingStation,1)).
-init1(object(order,9),value(line,(1,6))).
+init1(object(order,9),value(line,(5,6))).

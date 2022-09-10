@@ -160,29 +160,18 @@ init(object(shelf,3),value(at,(3,8))).
 init(object(shelf,4),value(at,(9,5))).
 
 % PRODUCTS
-init(object(product,1),value(on,(4,1))).
-init(object(product,2),value(on,(5,1))).
-init(object(product,3),value(on,(6,1))).
-init(object(product,4),value(on,(7,1))).
-init(object(product,1),value(on,(8,1))).
-init(object(product,2),value(on,(6,2))).
-init(object(product,3),value(on,(7,2))).
-init(object(product,4),value(on,(8,2))).
+init(object(product,1),value(on,(1,1))).
+init(object(product,2),value(on,(2,1))).
+init(object(product,3),value(on,(3,1))).
+init(object(product,4),value(on,(4,1))).
+
 
 % ORDERS
 init(object(order,1),value(pickingStation,1)).
-init(object(order,1),value(line,(4,1))).
+init(object(order,1),value(line,(1,1))).
 init(object(order,3),value(pickingStation,1)).
-init(object(order,3),value(line,(5,1))).
+init(object(order,3),value(line,(2,1))).
 init(object(order,5),value(pickingStation,1)).
-init(object(order,5),value(line,(6,1))).
+init(object(order,5),value(line,(3,1))).
 init(object(order,7),value(pickingStation,1)).
-init(object(order,7),value(line,(7,1))).
-init(object(order,9),value(pickingStation,1)).
-init(object(order,9),value(line,(8,1))).
-init(object(order,11),value(pickingStation,1)).
-init(object(order,11),value(line,(6,2))).
-init(object(order,13),value(pickingStation,1)).
-init(object(order,13),value(line,(7,2))).
-init(object(order,15),value(pickingStation,1)).
-init(object(order,15),value(line,(8,2))).
+init(object(order,7),value(line,(4,1))).

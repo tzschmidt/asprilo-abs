@@ -185,35 +185,35 @@ init1(object(shelf,9),value(at,(2,9))).
 init1(object(shelf,10),value(at,(1,3))).
 
 % PRODUCTS
-init1(object(product,1),value(on,(3,6))).
-init1(object(product,2),value(on,(4,6))).
-init1(object(product,3),value(on,(5,6))).
-init1(object(product,4),value(on,(3,7))).
-init1(object(product,5),value(on,(4,7))).
-init1(object(product,6),value(on,(5,7))).
-init1(object(product,7),value(on,(4,8))).
-init1(object(product,8),value(on,(5,8))).
-init1(object(product,9),value(on,(1,6))).
-init1(object(product,10),value(on,(1,7))).
+init1(object(product,1),value(on,(1,6))).
+init1(object(product,2),value(on,(2,6))).
+init1(object(product,3),value(on,(3,6))).
+init1(object(product,4),value(on,(4,7))).
+init1(object(product,5),value(on,(5,7))).
+init1(object(product,6),value(on,(6,7))).
+init1(object(product,7),value(on,(7,8))).
+init1(object(product,8),value(on,(8,8))).
+init1(object(product,9),value(on,(9,6))).
+init1(object(product,10),value(on,(10,7))).
 
 % ORDERS
 init1(object(order,1),value(pickingStation,1)).
-init1(object(order,1),value(line,(3,6))).
+init1(object(order,1),value(line,(1,6))).
 init1(object(order,3),value(pickingStation,1)).
-init1(object(order,3),value(line,(4,6))).
+init1(object(order,3),value(line,(2,6))).
 init1(object(order,5),value(pickingStation,1)).
-init1(object(order,5),value(line,(5,6))).
+init1(object(order,5),value(line,(3,6))).
 init1(object(order,7),value(pickingStation,1)).
-init1(object(order,7),value(line,(3,7))).
+init1(object(order,7),value(line,(4,7))).
 init1(object(order,9),value(pickingStation,1)).
-init1(object(order,9),value(line,(4,7))).
+init1(object(order,9),value(line,(5,7))).
 init1(object(order,11),value(pickingStation,1)).
-init1(object(order,11),value(line,(5,7))).
+init1(object(order,11),value(line,(6,7))).
 init1(object(order,13),value(pickingStation,1)).
-init1(object(order,13),value(line,(4,8))).
+init1(object(order,13),value(line,(7,8))).
 init1(object(order,15),value(pickingStation,1)).
-init1(object(order,15),value(line,(5,8))).
+init1(object(order,15),value(line,(8,8))).
 init1(object(order,17),value(pickingStation,1)).
-init1(object(order,17),value(line,(1,6))).
+init1(object(order,17),value(line,(9,6))).
 init1(object(order,19),value(pickingStation,1)).
-init1(object(order,19),value(line,(1,7))).
+init1(object(order,19),value(line,(10,7))).
