@@ -407,80 +407,50 @@ init(object(node, 399), value(at, (19, 20))).
 init(object(node, 400), value(at, (20, 20))).
 init(object(pickingStation,1), value(at,(4,1))).
 init(object(shelf,9), value(at,(2,3))).
-init(object(product,1),value(on,(9,1))).
 init(object(shelf,14), value(at,(15,10))).
-init(object(product,2),value(on,(14,1))).
-init(object(product,10),value(on,(14,1))).
 init(object(shelf,4), value(at,(14,17))).
-init(object(product,3),value(on,(4,1))).
-init(object(product,8),value(on,(4,1))).
 init(object(shelf,1), value(at,(15,19))).
-init(object(product,4),value(on,(1,1))).
 init(object(shelf,5), value(at,(18,18))).
-init(object(product,5),value(on,(5,1))).
 init(object(shelf,3), value(at,(20,5))).
-init(object(product,6),value(on,(3,1))).
-init(object(product,7),value(on,(3,1))).
-init(object(product,12),value(on,(3,1))).
 init(object(shelf,6), value(at,(14,2))).
-init(object(product,9),value(on,(6,1))).
-init(object(product,11),value(on,(6,1))).
-init(object(product,15),value(on,(6,1))).
 init(object(shelf,10), value(at,(5,9))).
-init(object(product,13),value(on,(10,1))).
 init(object(shelf,2), value(at,(4,3))).
-init(object(product,14),value(on,(2,1))).
 init(object(shelf,7), value(at,(10,9))).
 init(object(shelf,8), value(at,(10,16))).
 init(object(shelf,11), value(at,(1,16))).
 init(object(shelf,12), value(at,(20,12))).
 init(object(shelf,13), value(at,(14,13))).
 init(object(shelf,15), value(at,(2,7))).
+init(object(product,1),value(on,(1,1))).
+init(object(product,2),value(on,(2,1))).
+init(object(product,3),value(on,(3,1))).
+init(object(product,4),value(on,(4,1))).
+init(object(product,5),value(on,(5,1))).
+init(object(product,6),value(on,(6,1))).
+init(object(product,7),value(on,(7,1))).
+init(object(product,8),value(on,(8,1))).
+init(object(product,9),value(on,(9,1))).
+init(object(product,10),value(on,(10,1))).
+init(object(product,11),value(on,(11,1))).
+init(object(product,12),value(on,(12,1))).
+init(object(product,13),value(on,(13,1))).
+init(object(product,14),value(on,(14,1))).
+init(object(product,15),value(on,(15,1))).
 init(object(robot,1), value(at,(11,1))).
-init(object(robot,1), value(max_energy,0)).
-init(object(robot,1), value(energy,0)).
 init(object(robot,2), value(at,(12,6))).
-init(object(robot,2), value(max_energy,0)).
-init(object(robot,2), value(energy,0)).
 init(object(robot,3), value(at,(4,12))).
-init(object(robot,3), value(max_energy,0)).
-init(object(robot,3), value(energy,0)).
 init(object(robot,4), value(at,(9,19))).
-init(object(robot,4), value(max_energy,0)).
-init(object(robot,4), value(energy,0)).
 init(object(robot,5), value(at,(18,9))).
-init(object(robot,5), value(max_energy,0)).
-init(object(robot,5), value(energy,0)).
 init(object(robot,6), value(at,(8,4))).
-init(object(robot,6), value(max_energy,0)).
-init(object(robot,6), value(energy,0)).
 init(object(robot,7), value(at,(5,17))).
-init(object(robot,7), value(max_energy,0)).
-init(object(robot,7), value(energy,0)).
 init(object(robot,8), value(at,(17,15))).
-init(object(robot,8), value(max_energy,0)).
-init(object(robot,8), value(energy,0)).
 init(object(robot,9), value(at,(1,20))).
-init(object(robot,9), value(max_energy,0)).
-init(object(robot,9), value(energy,0)).
 init(object(robot,10), value(at,(8,14))).
-init(object(robot,10), value(max_energy,0)).
-init(object(robot,10), value(energy,0)).
 init(object(robot,11), value(at,(7,7))).
-init(object(robot,11), value(max_energy,0)).
-init(object(robot,11), value(energy,0)).
 init(object(robot,12), value(at,(3,5))).
-init(object(robot,12), value(max_energy,0)).
-init(object(robot,12), value(energy,0)).
 init(object(robot,13), value(at,(17,4))).
-init(object(robot,13), value(max_energy,0)).
-init(object(robot,13), value(energy,0)).
 init(object(robot,14), value(at,(11,12))).
-init(object(robot,14), value(max_energy,0)).
-init(object(robot,14), value(energy,0)).
 init(object(robot,15), value(at,(4,1))).
-init(object(robot,15), value(max_energy,0)).
-init(object(robot,15), value(energy,0)).
 init(object(order,1),value(pickingStation,1)).
 init(object(order,1),value(line,(14,1))).
 init(object(order,2),value(pickingStation,1)).
