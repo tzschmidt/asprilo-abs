@@ -1,8 +1,9 @@
 # asprilo with abstraction
 
-To increase performance an original instance is abstracted by combining a 2x2 node sets into a single node.
+To try to increase performance an original instance is abstracted by combining all 2x2 node sets into a single node or cell.
+Additionaly a new atom, which states which cells are connected, is derived to guarantee a correct plan.
 A slightly modified [asprilo solver](https://github.com/potassco/asprilo-encodings) then solves the abstracted instance 
-after which the plan is refined onto the original instance. To do so, 3 time steps are guarenteed for each robot at each 
+after which the plan is refined onto the original instance. To do so, 3 time steps are guaranteed for each robot at each 
 cell, which naturally results in a longer solution.
 
 Usage: `clingo abs.lp <instance.lp> -c horizon=<time horizon>`
@@ -29,8 +30,12 @@ Known limitations:
 
 ## Results
 
+Below are the results of our encoding and the native encoding. The horizon is always the minimal horizon with which a valid solution was found.
+For the abstraction the horizon denotes the time limit for the solver on the abstracted instance, while the value in parenthesis denotes the 
+translated time limit onto the original instance.
+
 | Instance | w/ abs horizon (ref) | w/ abs Solving Time (in s) | w/o abs horizon | w/o abs Solving Time (in s) |
-|:--------:|:--------------------:|:--------------------------:|:---------------:|----------------------------:|
+|:--------:|:--------------------:|:--------------------------:|:---------------:|:----------------------------:|
 | B01 | 3 (11) | 0.034 | 5  | 0.008 |
 | B02 | 4 (14) | 0.039 | 7  | 0.011 |
 | B03 | 3 (11) | 0.037 | 7  | 0.011 |
@@ -44,7 +49,7 @@ Known limitations:
 | B11 | 6 (20) | 0.637 | 12 | 0.092 |
 
 | Instance | w/ abs horizon (ref) | w/ abs Solving Time (in s) | w/o abs horizon | w/o abs Solving Time (in s) |
-|:--------:|:--------------------:|:--------------------------:|:---------------:|----------------------------:|
+|:--------:|:--------------------:|:--------------------------:|:---------------:|:----------------------------:|
 | R20x20r15n1 | 7 (23) | 7.417 | 13 | 0.444 |
 
 ## Conclusion
