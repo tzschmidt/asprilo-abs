@@ -1,7 +1,12 @@
 # asprilo with abstraction
 
 To try to increase performance an original instance is abstracted by combining all 2x2 node sets into a single node or cell.
-Additionaly a new atom, which states which cells are connected, is derived to guarantee a correct plan.
+Additionaly a new atom, which states which cells are connected, is derived to guarantee a correct plan. An example of this
+abstraction can be seen below, where the red lines represent the constrained connections.
+ 
+Abstraction Example:
+![ Abstraction Example](abs_example.png "Abstraction Example") 
+ 
 A slightly modified [asprilo solver](https://github.com/potassco/asprilo-encodings) then solves the abstracted instance 
 after which the plan is refined onto the original instance. To do so, 3 time steps are guaranteed for each robot at each 
 cell, which naturally results in a longer solution.
