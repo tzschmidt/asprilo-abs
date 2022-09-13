@@ -406,125 +406,45 @@ init(object(node, 381), value(at, (1, 20))).
 init(object(node, 1), value(at, (1, 1))).
 init(object(node, 34), value(at, (14, 2))).
 init(object(robot,1), value(at,(7,9))).
-init(object(robot,1), value(max_energy,0)).
-init(object(robot,1), value(energy,0)).
 init(object(robot,2), value(at,(1,17))).
-init(object(robot,2), value(max_energy,0)).
-init(object(robot,2), value(energy,0)).
 init(object(robot,3), value(at,(15,8))).
-init(object(robot,3), value(max_energy,0)).
-init(object(robot,3), value(energy,0)).
 init(object(robot,4), value(at,(4,15))).
-init(object(robot,4), value(max_energy,0)).
-init(object(robot,4), value(energy,0)).
 init(object(robot,5), value(at,(4,6))).
-init(object(robot,5), value(max_energy,0)).
-init(object(robot,5), value(energy,0)).
 init(object(robot,6), value(at,(2,8))).
-init(object(robot,6), value(max_energy,0)).
-init(object(robot,6), value(energy,0)).
 init(object(robot,7), value(at,(20,11))).
-init(object(robot,7), value(max_energy,0)).
-init(object(robot,7), value(energy,0)).
 init(object(robot,8), value(at,(10,19))).
-init(object(robot,8), value(max_energy,0)).
-init(object(robot,8), value(energy,0)).
 init(object(robot,9), value(at,(20,7))).
-init(object(robot,9), value(max_energy,0)).
-init(object(robot,9), value(energy,0)).
 init(object(robot,10), value(at,(8,7))).
-init(object(robot,10), value(max_energy,0)).
-init(object(robot,10), value(energy,0)).
 init(object(robot,11), value(at,(7,13))).
-init(object(robot,11), value(max_energy,0)).
-init(object(robot,11), value(energy,0)).
 init(object(robot,12), value(at,(13,15))).
-init(object(robot,12), value(max_energy,0)).
-init(object(robot,12), value(energy,0)).
 init(object(robot,13), value(at,(12,20))).
-init(object(robot,13), value(max_energy,0)).
-init(object(robot,13), value(energy,0)).
 init(object(robot,14), value(at,(6,7))).
-init(object(robot,14), value(max_energy,0)).
-init(object(robot,14), value(energy,0)).
 init(object(robot,15), value(at,(1,6))).
-init(object(robot,15), value(max_energy,0)).
-init(object(robot,15), value(energy,0)).
 init(object(robot,16), value(at,(11,15))).
-init(object(robot,16), value(max_energy,0)).
-init(object(robot,16), value(energy,0)).
 init(object(robot,17), value(at,(3,13))).
-init(object(robot,17), value(max_energy,0)).
-init(object(robot,17), value(energy,0)).
 init(object(robot,18), value(at,(15,12))).
-init(object(robot,18), value(max_energy,0)).
-init(object(robot,18), value(energy,0)).
 init(object(robot,19), value(at,(7,5))).
-init(object(robot,19), value(max_energy,0)).
-init(object(robot,19), value(energy,0)).
 init(object(robot,20), value(at,(6,11))).
-init(object(robot,20), value(max_energy,0)).
-init(object(robot,20), value(energy,0)).
 init(object(robot,21), value(at,(4,19))).
-init(object(robot,21), value(max_energy,0)).
-init(object(robot,21), value(energy,0)).
 init(object(robot,22), value(at,(9,17))).
-init(object(robot,22), value(max_energy,0)).
-init(object(robot,22), value(energy,0)).
 init(object(robot,23), value(at,(10,12))).
-init(object(robot,23), value(max_energy,0)).
-init(object(robot,23), value(energy,0)).
 init(object(robot,24), value(at,(17,8))).
-init(object(robot,24), value(max_energy,0)).
-init(object(robot,24), value(energy,0)).
 init(object(robot,25), value(at,(13,11))).
-init(object(robot,25), value(max_energy,0)).
-init(object(robot,25), value(energy,0)).
 init(object(robot,26), value(at,(12,5))).
-init(object(robot,26), value(max_energy,0)).
-init(object(robot,26), value(energy,0)).
 init(object(robot,27), value(at,(8,11))).
-init(object(robot,27), value(max_energy,0)).
-init(object(robot,27), value(energy,0)).
 init(object(robot,28), value(at,(1,1))).
-init(object(robot,28), value(max_energy,0)).
-init(object(robot,28), value(energy,0)).
 init(object(robot,29), value(at,(20,4))).
-init(object(robot,29), value(max_energy,0)).
-init(object(robot,29), value(energy,0)).
 init(object(robot,30), value(at,(12,7))).
-init(object(robot,30), value(max_energy,0)).
-init(object(robot,30), value(energy,0)).
 init(object(robot,31), value(at,(19,16))).
-init(object(robot,31), value(max_energy,0)).
-init(object(robot,31), value(energy,0)).
 init(object(robot,32), value(at,(9,1))).
-init(object(robot,32), value(max_energy,0)).
-init(object(robot,32), value(energy,0)).
 init(object(robot,33), value(at,(4,8))).
-init(object(robot,33), value(max_energy,0)).
-init(object(robot,33), value(energy,0)).
 init(object(robot,34), value(at,(6,20))).
-init(object(robot,34), value(max_energy,0)).
-init(object(robot,34), value(energy,0)).
 init(object(robot,35), value(at,(9,14))).
-init(object(robot,35), value(max_energy,0)).
-init(object(robot,35), value(energy,0)).
 init(object(robot,36), value(at,(5,13))).
-init(object(robot,36), value(max_energy,0)).
-init(object(robot,36), value(energy,0)).
 init(object(robot,37), value(at,(19,1))).
-init(object(robot,37), value(max_energy,0)).
-init(object(robot,37), value(energy,0)).
 init(object(robot,38), value(at,(10,7))).
-init(object(robot,38), value(max_energy,0)).
-init(object(robot,38), value(energy,0)).
 init(object(robot,39), value(at,(16,20))).
-init(object(robot,39), value(max_energy,0)).
-init(object(robot,39), value(energy,0)).
 init(object(robot,40), value(at,(12,3))).
-init(object(robot,40), value(max_energy,0)).
-init(object(robot,40), value(energy,0)).
 init(object(shelf,1), value(at,(1,15))).
 init(object(shelf,2), value(at,(20,9))).
 init(object(shelf,3), value(at,(2,19))).
@@ -565,3 +485,124 @@ init(object(shelf,37), value(at,(11,1))).
 init(object(shelf,38), value(at,(20,14))).
 init(object(shelf,39), value(at,(12,17))).
 init(object(shelf,40), value(at,(13,9))).
+init1(object(product,1),value(on,(1,1))).
+init1(object(product,2),value(on,(2,1))).
+init1(object(product,3),value(on,(3,1))).
+init1(object(product,4),value(on,(4,1))).
+init1(object(product,5),value(on,(5,1))).
+init1(object(product,6),value(on,(6,1))).
+init1(object(product,7),value(on,(7,1))).
+init1(object(product,8),value(on,(8,1))).
+init1(object(product,9),value(on,(9,1))).
+init1(object(product,10),value(on,(10,1))).
+init1(object(product,11),value(on,(11,1))).
+init1(object(product,12),value(on,(12,1))).
+init1(object(product,13),value(on,(13,1))).
+init1(object(product,14),value(on,(14,1))).
+init1(object(product,15),value(on,(15,1))).
+init1(object(product,16),value(on,(16,1))).
+init1(object(product,17),value(on,(17,1))).
+init1(object(product,18),value(on,(18,1))).
+init1(object(product,19),value(on,(19,1))).
+init1(object(product,20),value(on,(20,1))).
+init1(object(product,21),value(on,(21,1))).
+init1(object(product,22),value(on,(22,1))).
+init1(object(product,23),value(on,(23,1))).
+init1(object(product,24),value(on,(24,1))).
+init1(object(product,25),value(on,(25,1))).
+init1(object(product,26),value(on,(26,1))).
+init1(object(product,27),value(on,(27,1))).
+init1(object(product,28),value(on,(28,1))).
+init1(object(product,29),value(on,(29,1))).
+init1(object(product,30),value(on,(30,1))).
+init1(object(product,31),value(on,(31,1))).
+init1(object(product,32),value(on,(32,1))).
+init1(object(product,33),value(on,(33,1))).
+init1(object(product,34),value(on,(34,1))).
+init1(object(product,35),value(on,(35,1))).
+init1(object(product,36),value(on,(36,1))).
+init1(object(product,37),value(on,(37,1))).
+init1(object(product,38),value(on,(38,1))).
+init1(object(product,39),value(on,(39,1))).
+init1(object(product,40),value(on,(40,1))).
+init1(object(pickingStation,1), value(at,(1,1))).
+init1(object(order,1),value(pickingStation,1)).
+init1(object(order,1),value(line,(1,1))).
+init1(object(order,2),value(pickingStation,1)).
+init1(object(order,2),value(line,(2,1))).
+init1(object(order,3),value(pickingStation,1)).
+init1(object(order,3),value(line,(3,1))).
+init1(object(order,4),value(pickingStation,1)).
+init1(object(order,4),value(line,(4,1))).
+init1(object(order,5),value(pickingStation,1)).
+init1(object(order,5),value(line,(5,1))).
+init1(object(order,6),value(pickingStation,1)).
+init1(object(order,6),value(line,(6,1))).
+init1(object(order,7),value(pickingStation,1)).
+init1(object(order,7),value(line,(7,1))).
+init1(object(order,8),value(pickingStation,1)).
+init1(object(order,8),value(line,(8,1))).
+init1(object(order,9),value(pickingStation,1)).
+init1(object(order,9),value(line,(9,1))).
+init1(object(order,10),value(pickingStation,1)).
+init1(object(order,10),value(line,(10,1))).
+init1(object(order,11),value(pickingStation,1)).
+init1(object(order,11),value(line,(11,1))).
+init1(object(order,12),value(pickingStation,1)).
+init1(object(order,12),value(line,(12,1))).
+init1(object(order,13),value(pickingStation,1)).
+init1(object(order,13),value(line,(13,1))).
+init1(object(order,14),value(pickingStation,1)).
+init1(object(order,14),value(line,(14,1))).
+init1(object(order,15),value(pickingStation,1)).
+init1(object(order,15),value(line,(15,1))).
+init1(object(order,16),value(pickingStation,1)).
+init1(object(order,16),value(line,(16,1))).
+init1(object(order,17),value(pickingStation,1)).
+init1(object(order,17),value(line,(17,1))).
+init1(object(order,18),value(pickingStation,1)).
+init1(object(order,18),value(line,(18,1))).
+init1(object(order,19),value(pickingStation,1)).
+init1(object(order,19),value(line,(19,1))).
+init1(object(order,20),value(pickingStation,1)).
+init1(object(order,20),value(line,(20,1))).
+init1(object(order,21),value(pickingStation,1)).
+init1(object(order,21),value(line,(21,1))).
+init1(object(order,22),value(pickingStation,1)).
+init1(object(order,22),value(line,(22,1))).
+init1(object(order,23),value(pickingStation,1)).
+init1(object(order,23),value(line,(23,1))).
+init1(object(order,24),value(pickingStation,1)).
+init1(object(order,24),value(line,(24,1))).
+init1(object(order,25),value(pickingStation,1)).
+init1(object(order,25),value(line,(25,1))).
+init1(object(order,26),value(pickingStation,1)).
+init1(object(order,26),value(line,(26,1))).
+init1(object(order,27),value(pickingStation,1)).
+init1(object(order,27),value(line,(27,1))).
+init1(object(order,28),value(pickingStation,1)).
+init1(object(order,28),value(line,(28,1))).
+init1(object(order,29),value(pickingStation,1)).
+init1(object(order,29),value(line,(29,1))).
+init1(object(order,30),value(pickingStation,1)).
+init1(object(order,30),value(line,(30,1))).
+init1(object(order,31),value(pickingStation,1)).
+init1(object(order,31),value(line,(31,1))).
+init1(object(order,32),value(pickingStation,1)).
+init1(object(order,32),value(line,(32,1))).
+init1(object(order,33),value(pickingStation,1)).
+init1(object(order,33),value(line,(33,1))).
+init1(object(order,34),value(pickingStation,1)).
+init1(object(order,34),value(line,(34,1))).
+init1(object(order,35),value(pickingStation,1)).
+init1(object(order,35),value(line,(35,1))).
+init1(object(order,36),value(pickingStation,1)).
+init1(object(order,36),value(line,(36,1))).
+init1(object(order,37),value(pickingStation,1)).
+init1(object(order,37),value(line,(37,1))).
+init1(object(order,38),value(pickingStation,1)).
+init1(object(order,38),value(line,(38,1))).
+init1(object(order,39),value(pickingStation,1)).
+init1(object(order,39),value(line,(39,1))).
+init1(object(order,40),value(pickingStation,1)).
+init1(object(order,40),value(line,(40,1))).
