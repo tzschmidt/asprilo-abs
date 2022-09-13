@@ -38,8 +38,7 @@ init(object(highway,16),value(at,(4,7))).
 init(object(highway,17),value(at,(4,10))).
 init(object(highway,18),value(at,(5,2))).
 init(object(highway,19),value(at,(5,3))).
-init(object(highway,20),value(at,(5,4))).
-init(object(highway,21),value(at,(5,5))).
+init(object(highway,19),value(at,(5,4))).
 init(object(highway,22),value(at,(5,9))).
 init(object(highway,23),value(at,(5,10))).
 init(object(highway,24),value(at,(6,1))).
@@ -90,8 +89,7 @@ init(object(node,20),value(at,(4,10))).
 init(object(node,21),value(at,(5,1))).
 init(object(node,22),value(at,(5,2))).
 init(object(node,23),value(at,(5,3))).
-init(object(node,24),value(at,(5,4))).
-init(object(node,25),value(at,(5,5))).
+init(object(node,25),value(at,(5,4))).
 init(object(node,26),value(at,(5,9))).
 init(object(node,27),value(at,(5,10))).
 init(object(node,28),value(at,(6,1))).
