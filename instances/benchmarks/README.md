@@ -2,28 +2,35 @@
 
 For this project we have created several benchmarks to test, validate and optimize our implementation on.
 The benchmarks range over different sizes, layouts and number of agents to cover a wide spectrum of possible scenarios.
+For each benchmark both a native and a "init1" instance can be found. Results to our benchmarks and a conclusion of those 
+can be found under '/encodings/idea2/'.
 
 The benchmarks 1-5 are smaller sizes, 6-11 medium sizes and the randomly generated instances are the large instances.
 
 
-# Benchmark descriptions:
+## Benchmark descriptions:
 
-benchmark_2: vertex constrain benchmark
+benchmark_01: vertex constrain benchmark 
 
-benchmark_3: 4 2x2 rooms with corridors
+benchmark_02: vertex constrain benchmark
 
-benchmark_4: vertex constrain benchmark 2
+benchmark_03: 4 2x2 rooms with corridors
 
-benchmark_5: 2 3x3 rooms with a corridor and robots are changing room and swapping positions
+benchmark_04: vertex constrain benchmark 2
 
-benchmark_6: 2 3x3 rooms with a corridor and robots are swapping rooms
+benchmark_05: 2 3x3 rooms with a corridor
 
-benchmark_7: maze consinsting of 2x2 rooms and corridors 
+benchmark_06: 2 3x3 rooms with a corridor 
 
-benchmark_8: shelfs
+benchmark_07: maze consinsting of 2x2 rooms and corridors 
 
-benchmark_9: bigger rooms connected by one corridor with robots all switching rooms
+benchmark_08: shelfs
 
-benchmark_10: bigger rooms connected by one corridor with 8 robots
+benchmark_09: bigger rooms connected by one corridor
+
+benchmark_10: bigger rooms connected by one corridor with more robots
 
 benchmark_11: 10 robots on 76 nodes
+
+randomly_generated_instances: contains a few randomly generated instances with different grid sizes and differnt numbers of roboters and shelfs
+
