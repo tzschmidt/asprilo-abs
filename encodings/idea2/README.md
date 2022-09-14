@@ -37,7 +37,7 @@ Known limitations:
 
 Below are the results of our encoding and the native encoding. The horizon is always the minimal horizon with which a valid solution was found.
 For the abstraction the horizon denotes the time limit for the solver on the abstracted instance, while the value in parenthesis denotes the 
-translated time limit onto the original instance.
+translated time limit onto the original instance. All benchmarks were performed on an AMD Ryzen 7 3700X 8-Core Processor with 32GB of RAM.
 
 | Instance | w/ abs horizon (ref) | w/ abs Solving Time (in s) | w/o abs horizon | w/o abs Solving Time (in s) |
 |:--------:|:--------------------:|:--------------------------:|:---------------:|:---------------------------:|
@@ -55,8 +55,9 @@ translated time limit onto the original instance.
 
 | Instance | w/ abs horizon (ref) | w/ abs Solving Time (in s) | w/o abs horizon | w/o abs Solving Time (in s) |
 |:--------:|:--------------------:|:--------------------------:|:---------------:|:---------------------------:|
-| R15x15r10n | 5 (17) | 0.807 | 11 | 0.138 |
-| R20x20r15n | 7 (23) | 7.368 | 13 | 0.444 |
+| R15x15r10 | 5 (17) | 0.807 | 11 | 0.138 |
+| R20x20r15 | 7 (23) | 7.368 | 13 | 0.444 |
+| R20x20r40 | 3 (11) | 0.772 | 7  | 0.317 |
 
 ## Conclusion
 
@@ -64,5 +65,7 @@ Our encoding using abstraction and refinement can solve most instances correctly
 encoding our encoding performs slightly worse on smaller benchmarks but significantly worse on bigger ones. This is due
 to the fact, that the abstraction and refinement is a quite demanding task, which scales with the size of the instance.
 That means the complexity of the abstraction and refinement rises faster than the complexity of the 
-path finding problem itself. As we only dipped our toes into the thematic of abstraction and refinement with this project,
+path finding problem itself at least on instances with a relatively small number of robots. 
+On the bigger benchmark with a lot of robots the performance converges once more.
+As we only dipped our toes into the thematic of abstraction and refinement with this project,
 we strongly believe our solution can definitely be improved, if more time is invested into it.
